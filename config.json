@@ -3,7 +3,7 @@
     "frequency": 2,
     "instance_name": "Ritmic Demo IoT",
     "log_directory": "/var/log/ritmic",
-    "module_id": "0xdca63222e891",
+    "module_id": "0x37b1d1a4d9ee",
     "modules_enabled": [
         "BasicMeasurement"
     ],

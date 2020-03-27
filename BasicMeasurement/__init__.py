@@ -33,10 +33,10 @@ class Module:
     print('✔️ Module is running')
 
     while True:
-      sense.set_pixel(0, 0, 239, 225, 99)
+      sense.set_pixel(0, 1, 239, 225, 99)
       logging.info(str(self.getSensorsData()))
       await asyncio.sleep(self.config['frequency'])
-      sense.set_pixel(0, 0, 0, 0, 0)
+      sense.set_pixel(0, 1, 0, 0, 0)
       logging.info(str(self.getSensorsData()))
       await asyncio.sleep(self.config['frequency'])
 

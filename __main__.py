@@ -33,7 +33,7 @@ class Main:
       self.config = data
   # Init modules
   def init(self):
-    sense.load_image(path+'_src/assets/logo_blue.png')
+    sense.set_pixel(0, 0, 99, 225, 239)
     print("\n\n----------- Starting Rtimic module -----------\n|\n|  Client : " + self.config['client_id']+ "\n|  Module id : " + self.config['module_id'] + "\n|\n----------------------------------------------")
     print('⚙️ Initialisation')
     for module in self.config["modules_enabled"]:
